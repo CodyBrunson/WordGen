@@ -19,7 +19,6 @@ func NewWordGen() WordGen {
 	w.Count = 2
 	w.Separator = "-"
 	w.Words = readWordDict()
-
 	return w
 }
 
